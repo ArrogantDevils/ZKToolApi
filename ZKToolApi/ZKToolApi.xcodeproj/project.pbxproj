@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58047BFC23B0CB2700C79409 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047BFB23B0CB2700C79409 /* AppDelegate.m */; };
+		58047C0223B0CB2700C79409 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C0123B0CB2700C79409 /* ViewController.m */; };
+		58047C0523B0CB2700C79409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58047C0323B0CB2700C79409 /* Main.storyboard */; };
+		58047C0723B0CB2800C79409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58047C0623B0CB2800C79409 /* Assets.xcassets */; };
+		58047C0A23B0CB2800C79409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58047C0823B0CB2800C79409 /* LaunchScreen.storyboard */; };
+		58047C0D23B0CB2800C79409 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C0C23B0CB2800C79409 /* main.m */; };
+		58047C1723B0CB2800C79409 /* ZKToolApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C1623B0CB2800C79409 /* ZKToolApiTests.m */; };
+		58047C2223B0CB2800C79409 /* ZKToolApiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C2123B0CB2800C79409 /* ZKToolApiUITests.m */; };
+		58047C3F23B0CB5500C79409 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58047C3023B0CB5500C79409 /* Back@2x.png */; };
+		58047C4023B0CB5500C79409 /* ZKNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C3123B0CB5500C79409 /* ZKNavgationController.m */; };
+		58047C4123B0CB5500C79409 /* Back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58047C3223B0CB5500C79409 /* Back@3x.png */; };
+		58047C4223B0CB5500C79409 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 58047C3423B0CB5500C79409 /* Back.png */; };
+		58047C4323B0CB5500C79409 /* ZKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C3623B0CB5500C79409 /* ZKTableViewController.m */; };
+		58047C4E23B0CB8A00C79409 /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C4923B0CB8A00C79409 /* UIView+Tool.m */; };
+		58047C4F23B0CB8A00C79409 /* UITextField+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C4B23B0CB8A00C79409 /* UITextField+Tool.m */; };
+		58047C5023B0CB8A00C79409 /* UILabel+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 58047C4D23B0CB8A00C79409 /* UILabel+Tool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58047C1323B0CB2800C79409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58047BEF23B0CB2700C79409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58047BF623B0CB2700C79409;
+			remoteInfo = ZKToolApi;
+		};
+		58047C1E23B0CB2800C79409 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58047BEF23B0CB2700C79409 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58047BF623B0CB2700C79409;
+			remoteInfo = ZKToolApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58047BF723B0CB2700C79409 /* ZKToolApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKToolApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58047BFA23B0CB2700C79409 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58047BFB23B0CB2700C79409 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58047C0023B0CB2700C79409 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58047C0123B0CB2700C79409 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58047C0423B0CB2700C79409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58047C0623B0CB2800C79409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58047C0923B0CB2800C79409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58047C0B23B0CB2800C79409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58047C0C23B0CB2800C79409 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58047C1223B0CB2800C79409 /* ZKToolApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKToolApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58047C1623B0CB2800C79409 /* ZKToolApiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKToolApiTests.m; sourceTree = "<group>"; };
+		58047C1823B0CB2800C79409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58047C1D23B0CB2800C79409 /* ZKToolApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKToolApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58047C2123B0CB2800C79409 /* ZKToolApiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKToolApiUITests.m; sourceTree = "<group>"; };
+		58047C2323B0CB2800C79409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58047C3023B0CB5500C79409 /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
+		58047C3123B0CB5500C79409 /* ZKNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKNavgationController.m; sourceTree = "<group>"; };
+		58047C3223B0CB5500C79409 /* Back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@3x.png"; sourceTree = "<group>"; };
+		58047C3323B0CB5500C79409 /* ZKNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKNavgationController.h; sourceTree = "<group>"; };
+		58047C3423B0CB5500C79409 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		58047C3623B0CB5500C79409 /* ZKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKTableViewController.m; sourceTree = "<group>"; };
+		58047C3723B0CB5500C79409 /* ZKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKTableViewController.h; sourceTree = "<group>"; };
+		58047C4823B0CB8A00C79409 /* UITextField+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Tool.h"; sourceTree = "<group>"; };
+		58047C4923B0CB8A00C79409 /* UIView+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tool.m"; sourceTree = "<group>"; };
+		58047C4A23B0CB8A00C79409 /* UILabel+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Tool.h"; sourceTree = "<group>"; };
+		58047C4B23B0CB8A00C79409 /* UITextField+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Tool.m"; sourceTree = "<group>"; };
+		58047C4C23B0CB8A00C79409 /* UIView+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tool.h"; sourceTree = "<group>"; };
+		58047C4D23B0CB8A00C79409 /* UILabel+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Tool.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58047BF423B0CB2700C79409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58047C0F23B0CB2800C79409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58047C1A23B0CB2800C79409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58047BEE23B0CB2700C79409 = {
+			isa = PBXGroup;
+			children = (
+				58047BF923B0CB2700C79409 /* ZKToolApi */,
+				58047C1523B0CB2800C79409 /* ZKToolApiTests */,
+				58047C2023B0CB2800C79409 /* ZKToolApiUITests */,
+				58047BF823B0CB2700C79409 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58047BF823B0CB2700C79409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58047BF723B0CB2700C79409 /* ZKToolApi.app */,
+				58047C1223B0CB2800C79409 /* ZKToolApiTests.xctest */,
+				58047C1D23B0CB2800C79409 /* ZKToolApiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58047BF923B0CB2700C79409 /* ZKToolApi */ = {
+			isa = PBXGroup;
+			children = (
+				58047C4723B0CB8A00C79409 /* Tool */,
+				58047C2F23B0CB5500C79409 /* NavgationController */,
+				58047C3523B0CB5500C79409 /* TableView */,
+				58047BFA23B0CB2700C79409 /* AppDelegate.h */,
+				58047BFB23B0CB2700C79409 /* AppDelegate.m */,
+				58047C0023B0CB2700C79409 /* ViewController.h */,
+				58047C0123B0CB2700C79409 /* ViewController.m */,
+				58047C0323B0CB2700C79409 /* Main.storyboard */,
+				58047C0623B0CB2800C79409 /* Assets.xcassets */,
+				58047C0823B0CB2800C79409 /* LaunchScreen.storyboard */,
+				58047C0B23B0CB2800C79409 /* Info.plist */,
+				58047C0C23B0CB2800C79409 /* main.m */,
+			);
+			path = ZKToolApi;
+			sourceTree = "<group>";
+		};
+		58047C1523B0CB2800C79409 /* ZKToolApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				58047C1623B0CB2800C79409 /* ZKToolApiTests.m */,
+				58047C1823B0CB2800C79409 /* Info.plist */,
+			);
+			path = ZKToolApiTests;
+			sourceTree = "<group>";
+		};
+		58047C2023B0CB2800C79409 /* ZKToolApiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58047C2123B0CB2800C79409 /* ZKToolApiUITests.m */,
+				58047C2323B0CB2800C79409 /* Info.plist */,
+			);
+			path = ZKToolApiUITests;
+			sourceTree = "<group>";
+		};
+		58047C2F23B0CB5500C79409 /* NavgationController */ = {
+			isa = PBXGroup;
+			children = (
+				58047C3023B0CB5500C79409 /* Back@2x.png */,
+				58047C3123B0CB5500C79409 /* ZKNavgationController.m */,
+				58047C3223B0CB5500C79409 /* Back@3x.png */,
+				58047C3323B0CB5500C79409 /* ZKNavgationController.h */,
+				58047C3423B0CB5500C79409 /* Back.png */,
+			);
+			path = NavgationController;
+			sourceTree = "<group>";
+		};
+		58047C3523B0CB5500C79409 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				58047C3623B0CB5500C79409 /* ZKTableViewController.m */,
+				58047C3723B0CB5500C79409 /* ZKTableViewController.h */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		58047C4723B0CB8A00C79409 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				58047C4823B0CB8A00C79409 /* UITextField+Tool.h */,
+				58047C4923B0CB8A00C79409 /* UIView+Tool.m */,
+				58047C4A23B0CB8A00C79409 /* UILabel+Tool.h */,
+				58047C4B23B0CB8A00C79409 /* UITextField+Tool.m */,
+				58047C4C23B0CB8A00C79409 /* UIView+Tool.h */,
+				58047C4D23B0CB8A00C79409 /* UILabel+Tool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58047BF623B0CB2700C79409 /* ZKToolApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58047C2623B0CB2800C79409 /* Build configuration list for PBXNativeTarget "ZKToolApi" */;
+			buildPhases = (
+				58047BF323B0CB2700C79409 /* Sources */,
+				58047BF423B0CB2700C79409 /* Frameworks */,
+				58047BF523B0CB2700C79409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKToolApi;
+			productName = ZKToolApi;
+			productReference = 58047BF723B0CB2700C79409 /* ZKToolApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58047C1123B0CB2800C79409 /* ZKToolApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58047C2923B0CB2800C79409 /* Build configuration list for PBXNativeTarget "ZKToolApiTests" */;
+			buildPhases = (
+				58047C0E23B0CB2800C79409 /* Sources */,
+				58047C0F23B0CB2800C79409 /* Frameworks */,
+				58047C1023B0CB2800C79409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58047C1423B0CB2800C79409 /* PBXTargetDependency */,
+			);
+			name = ZKToolApiTests;
+			productName = ZKToolApiTests;
+			productReference = 58047C1223B0CB2800C79409 /* ZKToolApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58047C1C23B0CB2800C79409 /* ZKToolApiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58047C2C23B0CB2800C79409 /* Build configuration list for PBXNativeTarget "ZKToolApiUITests" */;
+			buildPhases = (
+				58047C1923B0CB2800C79409 /* Sources */,
+				58047C1A23B0CB2800C79409 /* Frameworks */,
+				58047C1B23B0CB2800C79409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58047C1F23B0CB2800C79409 /* PBXTargetDependency */,
+			);
+			name = ZKToolApiUITests;
+			productName = ZKToolApiUITests;
+			productReference = 58047C1D23B0CB2800C79409 /* ZKToolApiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58047BEF23B0CB2700C79409 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = dhc;
+				TargetAttributes = {
+					58047BF623B0CB2700C79409 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					58047C1123B0CB2800C79409 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 58047BF623B0CB2700C79409;
+					};
+					58047C1C23B0CB2800C79409 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 58047BF623B0CB2700C79409;
+					};
+				};
+			};
+			buildConfigurationList = 58047BF223B0CB2700C79409 /* Build configuration list for PBXProject "ZKToolApi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58047BEE23B0CB2700C79409;
+			productRefGroup = 58047BF823B0CB2700C79409 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58047BF623B0CB2700C79409 /* ZKToolApi */,
+				58047C1123B0CB2800C79409 /* ZKToolApiTests */,
+				58047C1C23B0CB2800C79409 /* ZKToolApiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58047BF523B0CB2700C79409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58047C4223B0CB5500C79409 /* Back.png in Resources */,
+				58047C4123B0CB5500C79409 /* Back@3x.png in Resources */,
+				58047C0A23B0CB2800C79409 /* LaunchScreen.storyboard in Resources */,
+				58047C3F23B0CB5500C79409 /* Back@2x.png in Resources */,
+				58047C0723B0CB2800C79409 /* Assets.xcassets in Resources */,
+				58047C0523B0CB2700C79409 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58047C1023B0CB2800C79409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58047C1B23B0CB2800C79409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58047BF323B0CB2700C79409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58047C5023B0CB8A00C79409 /* UILabel+Tool.m in Sources */,
+				58047C4F23B0CB8A00C79409 /* UITextField+Tool.m in Sources */,
+				58047C4E23B0CB8A00C79409 /* UIView+Tool.m in Sources */,
+				58047C0223B0CB2700C79409 /* ViewController.m in Sources */,
+				58047BFC23B0CB2700C79409 /* AppDelegate.m in Sources */,
+				58047C4023B0CB5500C79409 /* ZKNavgationController.m in Sources */,
+				58047C4323B0CB5500C79409 /* ZKTableViewController.m in Sources */,
+				58047C0D23B0CB2800C79409 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58047C0E23B0CB2800C79409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58047C1723B0CB2800C79409 /* ZKToolApiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58047C1923B0CB2800C79409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58047C2223B0CB2800C79409 /* ZKToolApiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58047C1423B0CB2800C79409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58047BF623B0CB2700C79409 /* ZKToolApi */;
+			targetProxy = 58047C1323B0CB2800C79409 /* PBXContainerItemProxy */;
+		};
+		58047C1F23B0CB2800C79409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58047BF623B0CB2700C79409 /* ZKToolApi */;
+			targetProxy = 58047C1E23B0CB2800C79409 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58047C0323B0CB2700C79409 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58047C0423B0CB2700C79409 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58047C0823B0CB2800C79409 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58047C0923B0CB2800C79409 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58047C2423B0CB2800C79409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58047C2523B0CB2800C79409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58047C2723B0CB2800C79409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X8298N335;
+				INFOPLIST_FILE = ZKToolApi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dhc.ZKToolApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		58047C2823B0CB2800C79409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X8298N335;
+				INFOPLIST_FILE = ZKToolApi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dhc.ZKToolApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		58047C2A23B0CB2800C79409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X8298N335;
+				INFOPLIST_FILE = ZKToolApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dhc.ZKToolApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKToolApi.app/ZKToolApi";
+			};
+			name = Debug;
+		};
+		58047C2B23B0CB2800C79409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X8298N335;
+				INFOPLIST_FILE = ZKToolApiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dhc.ZKToolApiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKToolApi.app/ZKToolApi";
+			};
+			name = Release;
+		};
+		58047C2D23B0CB2800C79409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X8298N335;
+				INFOPLIST_FILE = ZKToolApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dhc.ZKToolApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKToolApi;
+			};
+			name = Debug;
+		};
+		58047C2E23B0CB2800C79409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X8298N335;
+				INFOPLIST_FILE = ZKToolApiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dhc.ZKToolApiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZKToolApi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58047BF223B0CB2700C79409 /* Build configuration list for PBXProject "ZKToolApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58047C2423B0CB2800C79409 /* Debug */,
+				58047C2523B0CB2800C79409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58047C2623B0CB2800C79409 /* Build configuration list for PBXNativeTarget "ZKToolApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58047C2723B0CB2800C79409 /* Debug */,
+				58047C2823B0CB2800C79409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58047C2923B0CB2800C79409 /* Build configuration list for PBXNativeTarget "ZKToolApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58047C2A23B0CB2800C79409 /* Debug */,
+				58047C2B23B0CB2800C79409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58047C2C23B0CB2800C79409 /* Build configuration list for PBXNativeTarget "ZKToolApiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58047C2D23B0CB2800C79409 /* Debug */,
+				58047C2E23B0CB2800C79409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58047BEF23B0CB2700C79409 /* Project object */;
+}
